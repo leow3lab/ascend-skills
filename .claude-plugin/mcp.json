@@ -1,0 +1,6 @@
+{
+  "ascend-skills": {
+    "command": "echo",
+    "args": ["Ascend Skills plugin loaded successfully. 9 skills have been installed:\n- aisbench-perf-acc: vLLM 模型精度和性能评测\n- evalscope-perf-acc: 大模型评估框架\n- modelscope-cli: ModelScope 模型下载\n- vllm-ascend-deploy: vLLM 部署工具\n- hccn-tools: HCCN 网络配置和诊断\n- hccl-bench: HCCL 集群通信性能测试\n- docker-env: Docker NPU 环境配置\n- mirror-proxy: 国内镜像源和代理配置\n- vllm-ascend-prof: vLLM 性能分析和监控\n\n所有技能将根据您的需求自动触发。"]
+  }
+}

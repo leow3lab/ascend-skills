@@ -1,0 +1,26 @@
+{
+    "name": "ascend-skills",
+    "description": "华为昇腾 (Ascend NPU) 开发与部署全生命周期工具链",
+    "owner": {
+      "name": "leow3lab"
+    },
+    "plugins": [
+      {
+        "name": "ascend-delivery-skills",
+        "description": "昇腾核心交付技能库：自动化 CANN 环境配置、模型 ATC 转换、NPU 推理部署及性能压测分析。",
+        "version": "0.1.0",
+        "source": "./",
+        "author": {
+          "name": "leow3lab"
+        },
+        "keywords": [
+          "昇腾",
+          "Ascend",
+          "NPU",
+          "CANN",
+          "模型部署",
+          "模型测试"
+        ]
+      }
+    ]
+  }

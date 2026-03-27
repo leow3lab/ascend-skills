@@ -1,0 +1,27 @@
+{
+  "name": "ascend-skills",
+  "description": "华为昇腾（Ascend）NPU 技能集合，包含 9 个专门针对昇腾 NPU 平台设计的 Claude Code 技能，覆盖从环境配置到模型部署、性能监控和模型评估的完整工作流程。",
+  "author": {
+    "name": "Ascend Team"
+  },
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leow3lab/ascend-skills.git"
+  },
+  "skills_count": 9,
+  "categories": [
+    "ascend-deploy",
+    "ascend-env",
+    "ascend-optim"
+  ],
+  "features": [
+    "vLLM 模型在 Ascend NPU 上的部署",
+    "模型精度和性能评测（AISBench、EvalScope）",
+    "ModelScope 模型下载",
+    "HCCN/HCCL 网络配置和性能测试",
+    "Docker NPU 环境配置",
+    "国内镜像源和代理配置",
+    "vLLM 性能分析和监控"
+  ]
+}
