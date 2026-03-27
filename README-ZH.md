@@ -1,7 +1,7 @@
 # Ascend Deploy Skills
 
 <p align="center">
-  <img src="./asserts/panic.png" alt="Ascend Deploy Skills" width="200">
+  <img src="./asserts/logo.png" alt="Ascend Deploy Skills" width="200">
 </p>
 
 专注于 **LLM 部署技能** 的技能集合，面向华为昇腾（Ascend）NPU。

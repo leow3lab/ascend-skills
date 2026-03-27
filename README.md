@@ -1,7 +1,7 @@
 # Ascend Deploy Skills
 
 <p align="center">
-  <img src="./asserts/panic.png" alt="Ascend Deploy Skills" width="200">
+  <img src="./asserts/logo.png" alt="Ascend Deploy Skills" width="200">
 </p>
 
 A skills collection focused on **LLM deployment** for Huawei Ascend NPU.
