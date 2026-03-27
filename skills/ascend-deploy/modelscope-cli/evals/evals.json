@@ -1,0 +1,105 @@
+{
+  "skill_name": "modelscope-cli",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我需要从 ModelScope 下载 Qwen3.5-397B 模型用于 Ascend NPU 部署。",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "能帮我从 ModelScope 批量下载多个模型以加快设置速度吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我想从 ModelScope 的 Eco-Tech 组织获取 Qwen 的 W8A8Z 量化版本。",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "如何使用 modelscope download 命令下载带特定过滤器的模型？",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我需要验证下载的模型文件的 SHA256 校验和。",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "你能展示一下从 ModelScope 下载时如何排除 ONNX 文件吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "我想根据文件大小估算 ModelScope 模型的参数量。",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "如何从 ModelScope 下载数据集用于我的训练流水线？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "从 ModelScope 下载时出现 SSL 证书错误，如何修复？",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "vLLM-Ascend 优化版 Qwen 模型的 ModelScope 模型 ID 是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我想创建一个带有状态管理的基本 React 组件。",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "能帮我为 Node.js 应用配置 MongoDB Atlas 吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "如何使用 RabbitMQ 设置消息队列？",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "我需要写一个 Python 脚本来解析 CSV 文件并处理数据。",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "能解释一下如何在 Java 中使用策略设计模式吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "我想配置 Docker swarm 集群进行容器编排。",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "如何在微服务架构中实现 JWT 身份验证？",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "能帮我在 AWS 中设置 VPC 和子网吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "我需要使用动态规划优化递归算法。",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "Linux 中 système 调用中 mmap 和 read 有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}

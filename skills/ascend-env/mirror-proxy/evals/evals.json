@@ -1,0 +1,105 @@
+{
+  "skill_name": "mirror-proxy",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我需要配置国内镜像源以加速 pip 下载速度。",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "能帮我配置 npm 使用淘宝镜像源吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我想配置 pip 使用阿里云镜像源。",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "如何设置重启后仍然有效的系统级代理环境变量？",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我需要配置 Docker 使用代理从外部仓库拉取镜像。",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "你能展示一下如何配置 Git 使用代理吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "我想将 apt 软件源切换到阿里云镜像用于 Ubuntu 软件更新。",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "如何为 npm 配置淘宝镜像源用于软件包下载？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "pip 安装包太慢了，有什么加速方法？",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "我想配置清华大学镜像源用于 pip。",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我想用 Python Flask 创建一个简单的 RESTful API。",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "能帮我配置 Apache Mesos 进行集群资源管理吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "如何设置带有流式复制的 PostgreSQL 数据库？",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "我需要写一个 JavaScript 函数来实现防抖工具。",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "能解释一下如何在 Java 中使用观察者模式吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "我想用 HAProxy 配置反向代理。",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "如何在 Go 中实现二叉搜索树？",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "能帮我设置 Prometheus 和 Grafana 监控吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "我需要用 OpenVPN 设置 VPN 以进行安全远程访问。",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "操作系统中进程和线程有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}

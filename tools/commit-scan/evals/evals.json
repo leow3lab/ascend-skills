@@ -1,0 +1,55 @@
+{
+  "skill_name": "commit-scan",
+  "evals": [
+    {
+      "id": 1,
+      "name": "trigger-on-commit",
+      "prompt": "帮我提交代码",
+      "expected_output": "在提交前触发安全检查，扫描敏感信息",
+      "assertions": [
+        {"type": "contains", "value": "安全检查", "description": "应执行安全检查"},
+        {"type": "contains", "value": "扫描", "description": "应扫描敏感信息"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "trigger-on-push",
+      "prompt": "准备 git push 到远程仓库",
+      "expected_output": "在 push 前执行安全检查",
+      "assertions": [
+        {"type": "contains", "value": "检查", "description": "应执行检查流程"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "scan-and-report",
+      "prompt": "对 skills 目录进行安全扫描",
+      "expected_output": "扫描并生成报告",
+      "assertions": [
+        {"type": "contains", "value": "报告", "description": "应生成扫描报告"},
+        {"type": "contains", "value": "内网", "description": "应检查内网链接"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "auto-fix-sensitive",
+      "prompt": "扫描 skills 目录并自动修复敏感信息",
+      "expected_output": "扫描并自动替换敏感信息为占位符",
+      "assertions": [
+        {"type": "contains", "value": "修复", "description": "应执行修复操作"},
+        {"type": "contains", "value": "YOUR_SERVER_IP", "description": "应使用占位符替换"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "generate-full-report",
+      "prompt": "生成 skills 目录的完整安全扫描报告",
+      "expected_output": "输出结构化的完整扫描报告",
+      "assertions": [
+        {"type": "contains", "value": "报告", "description": "应生成报告"},
+        {"type": "contains", "value": "内部 IP", "description": "应包含IP检查结果"},
+        {"type": "contains", "value": "硬编码", "description": "应包含密码检查结果"}
+      ]
+    }
+  ]
+}

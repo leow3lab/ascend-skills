@@ -1,0 +1,105 @@
+{
+  "skill_name": "evalscope-perf-acc",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我需要在 HumanEval 基准测试上评估我的代码生成模型的 Pass@1 准确率。",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "能帮我运行一个性能压力测试来测量 vLLM API 服务的吞吐量吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我想用 EvalScope 在 MBPP 和 SciCode 数据集上评估我的模型。",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "如何设置 Docker 容器来运行 EvalScope 评估？",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我需要测量推理服务的首字时间（TTFT）和延迟。",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "你能展示一下如何使用 EvalScope 的可视化评估结果吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "我想使用 ToolBench 数据集测试模型的工具使用能力。",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "如何为我的业务问题配置自定义数据集性能测试的 EvalScope？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "我需要用 LiveCodeBench 数据集基准测试模型的实时编码能力。",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "在 AIME 2025 数学问题上运行准确率评估的 evalscope 命令是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我想用 Flask 创建一个简单的 RESTful API。",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "能帮我配置 Nginx 作为 SSL 终止的反向代理吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "如何使用 Prisma 实现数据库迁移？",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "我需要为容器设置 Prometheus 监控。",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "能解释一下如何在 Linux 中使用 epoll 进行高性能网络编程吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "我想写一个 bash 脚本来自动轮换日志文件。",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "如何为 CI/CD 流水线配置 GitLab runner？",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "能帮我优化一个有多个连接的慢 SQL 查询吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "我需要为 API 端点实现速率限制。",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "C++ 中类和结构体的内存布局有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "skill_name": "vllm-ascend-prof",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我的 vLLM 服务在 Ascend NPU 上运行很慢，能帮我检查一下 NPU 利用率和吞吐量吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "我需要监控 vLLM-Ascend 推理服务器的 NPU 设备状态，应该用什么命令？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "能不能展示一下如何查看 NPU 上 vLLM 模型的 TTFT 和 TPOT？",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "运行 vLLM 时如何使用 npu-smi 监控 Ascend NPU 状态？",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我想对 Ascend 环境上的 vLLM 模型进行 profiling 分析算子性能。",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "运行 vLLM 时 NPU 利用率很低，帮我诊断是不是 host bound 问题。",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "查看 Ascend 上 vLLM 服务的吞吐量和延迟指标的命令是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "我需要分析 vLLM-Ascend 推理部署的性能瓶颈，op_summary 里的 mac 和 mte2 利用率怎么看？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "在 Ascend 平台上运行 vLLM 时，如何实时监控 NPU 设备？",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "vLLM 在 Ascend 上跑，TPOT 超过 50ms 了，怎么优化？",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "帮我分析一下 profiling 结果，算子的 mte2 带宽效率怎么计算？",
+      "should_trigger": true
+    },
+    {
+      "id": 12,
+      "query": "vLLM-Ascend 推理时算子出现 mte2 bound，怎么优化权重搬运效率？",
+      "should_trigger": true
+    },
+    {
+      "id": 13,
+      "query": "Ascend NPU 上跑 LLM，batch size 怎么设置才能让负载均衡更好？",
+      "should_trigger": true
+    },
+    {
+      "id": 14,
+      "query": "vLLM-Ascend 的环境变量 VLLM_ASCEND_ENABLE_NZ 是干什么用的？",
+      "should_trigger": true
+    },
+    {
+      "id": 15,
+      "query": "我想启用 FlashComm 优化 vLLM-Ascend 的性能，环境变量怎么配置？",
+      "should_trigger": true
+    },
+    {
+      "id": 16,
+      "query": "profiling 显示 NPU stream 有空隙，是不是 host bound？怎么解决？",
+      "should_trigger": true
+    },
+    {
+      "id": 17,
+      "query": "Matmul 算子的 MFU 怎么计算？294 TFlops 是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 18,
+      "query": "vLLM 在 Ascend 上 decode 阶段性能差，shape 怎么调整才能亲和？",
+      "should_trigger": true
+    },
+    {
+      "id": 19,
+      "query": "CANN 的 HCCL_BUFFSIZE 环境变量应该设置多大？",
+      "should_trigger": true
+    },
+    {
+      "id": 20,
+      "query": "如何判断算子是否需要融合？深融合和浅融合有什么区别？",
+      "should_trigger": true
+    },
+    {
+      "id": 21,
+      "query": "我想写一个 Python 函数来计算斐波那契数列。",
+      "should_trigger": false
+    },
+    {
+      "id": 22,
+      "query": "能帮我部署一个带 MySQL 数据库的 Docker 容器吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 23,
+      "query": "如何为我的微服务配置 Kubernetes ingress？",
+      "should_trigger": false
+    },
+    {
+      "id": 24,
+      "query": "我需要在 Ubuntu 服务器上安装 Node.js。",
+      "should_trigger": false
+    },
+    {
+      "id": 25,
+      "query": "能解释一下 git rebase 是怎么工作的吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 26,
+      "query": "我想用 Go 创建一个简单的 HTTP 服务器。",
+      "should_trigger": false
+    },
+    {
+      "id": 27,
+      "query": "如何设置 AWS S3 存储桶？",
+      "should_trigger": false
+    },
+    {
+      "id": 28,
+      "query": "能帮我写一个连接两个表的 SQL 查询吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 29,
+      "query": "我需要为 Web 应用程序配置 Nginx 反向代理。",
+      "should_trigger": false
+    },
+    {
+      "id": 30,
+      "query": "React 和 Vue.js 有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}

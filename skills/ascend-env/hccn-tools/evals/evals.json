@@ -1,0 +1,105 @@
+{
+  "skill_name": "hccn-tools",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我需要为我的 Ascend NPU 集群配置 HCCN 网络。",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "能帮我诊断为什么 NPU 网络链路显示为 DOWN（断开）？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我想检查每个设备上配置的 NPU IP 地址。",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "如何使用 hccn_tool 验证所有 NPU 卡的网络健康状态？",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我需要为 2 台服务器 16 卡分布式训练生成 rank_table_file.json。",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "你能展示一下如何为多节点训练配置基于 SSH 密钥的身份验证吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "我想测试不同节点上 NPU 设备之间的网络连通性。",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "如何查看 HCCN 的网关和网络检测配置？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "我需要验证 TLS 设置在所有 NPU 设备上是一致的。",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "从 NPU 设备 0 ping 到远程 IP 的 hccn_tool 命令是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我想创建一个带有继承和多态的简单 Python 类。",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "能帮我设置 AWS S3 存储桶用于静态文件托管吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "如何设置带有复制的 PostgreSQL 数据库？",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "我需要写一个 JavaScript 函数对用户输入进行防抖。",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "能解释一下如何在 C++ 中使用 epoll 进行高性能网络服务器编程吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "我想为我的微服务配置 Kubernetes ingress。",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "如何在移动应用中实现带有 PKCE 流的 OAuth 2.0？",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "能帮我调试 Go 应用程序中的内存泄漏吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "我需要用 WireGuard 设置 VPN 以进行安全远程访问。",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "传输层的 TCP 和 UDP 有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}

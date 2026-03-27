@@ -1,0 +1,40 @@
+# Claude Code 本地配置
+.claude/
+.venv/
+CLAUDE.md
+
+# 临时文件和日志
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+
+# 操作系统
+Thumbs.db
+.DS_Store
+
+# 备份文件
+*.bak
+*.backup
+
+

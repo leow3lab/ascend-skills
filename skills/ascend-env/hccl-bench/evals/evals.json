@@ -1,0 +1,105 @@
+{
+  "skill_name": "hccl-bench",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我需要对我的 NPU 集群的 HCCL 通信带宽和延迟进行基准测试。",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "能帮我在带 8 张 NPU 卡的单节点上运行 HCCL 性能测试吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我想在 4 台服务器、总共 32 个 NPU 设备的多节点环境中测试 HCCL 性能。",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "如何使用 mpirun 在多个节点上运行 HCCL 测试？",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我需要为 HCCL 多节点测试创建一个带有 IP 和槽位配置的 hostfile。",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "你能展示一下如何加载 HCCL 测试环境并运行 execute_hccl_test.sh 吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "我想验证 NPU 集群的 RoCE 网络性能用于分布式训练。",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "如何解释显示带宽（GB/s）和延迟（μs）的 HCCL 测试结果？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "我需要检查我的 HCCL 配置是否针对最大吞吐量进行了优化。",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "运行最多 16G 大消息的 HCCL 测试的命令是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我想用 Node.js 和 Express 创建一个简单的 RESTful API 后端。",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "能帮我配置 Nginx 用于反向代理和负载均衡吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "如何设置私有镜像的 Docker registry？",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "我需要写一个 Python 脚本用 requests 抓取网页数据。",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "能解释一下如何在 C++ 中使用互斥锁进行线程同步吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "我想用 Jenkins 和 Docker 配置 CI/CD 流水线。",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "如何在 Java 中实现二叉搜索树？",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "能帮我设置 MongoDB 分片集群吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "我需要配置 AWS Lambda 进行无服务器函数部署。",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "同步 I/O 和异步 I/O 有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}

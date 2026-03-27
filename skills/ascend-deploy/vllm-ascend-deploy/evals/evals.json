@@ -1,0 +1,100 @@
+{
+  "skill_name": "vllm-ascend-deploy",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我需要在我们的 Ascend NPU 服务器上部署 vLLM Qwen 模型。",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "能帮我为 8 张 NPU 卡上的 Qwen3.5 35B 模型设置带张量并行的 vLLM 吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我想通过 SSH 在远程服务器上部署 vLLM，步骤是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "如何为 vLLM 创建带有 NPU 设备映射的 Docker 容器？",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "你能展示一下如何使用正确的模型路径和端口启动 vLLM 服务吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "我想在本地部署 vLLM 并用测试请求验证它是否工作。",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "如何自动检测 NPU 卡数并设置张量并行大小？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "我需要在 vLLM 容器中挂载 NPU 驱动和工具链目录。",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "在 Ascend A2 上用 vLLM 部署 Qwen3.5-35B 的推荐 Docker 镜像是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我想用 Node.js 和 Express 创建一个简单的 Web 服务器。",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "能帮我用 Docker Compose 设置 PostgreSQL 数据库吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "如何在 Python 中实现二分查找？",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "我需要配置 HAProxy 为我的 API 服务器设置负载均衡器。",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "能解释一下如何使用 Git 分支进行功能开发吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "我想写一个 bash 脚本来自动化用户帐户创建。",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "如何设置 Prometheus 和 Grafana 监控？",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "能帮我用 EXPLAIN ANALYZE 调试慢 SQL 查询吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "我需要配置 Apache Kafka 进行事件流处理。",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "操作系统中进程和线程有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}

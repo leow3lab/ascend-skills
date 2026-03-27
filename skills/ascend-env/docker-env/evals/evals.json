@@ -1,0 +1,105 @@
+{
+  "skill_name": "docker-env",
+  "evals": [
+    {
+      "id": 1,
+      "query": "我需要创建一个可以访问 Ascend NPU 设备的 Docker 容器用于推理。",
+      "should_trigger": true
+    },
+    {
+      "id": 2,
+      "query": "能帮我在 Docker 容器中配置 NPU 设备映射（davinci0-7）吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 3,
+      "query": "我想将 NPU 驱动和工具链目录挂载到我的容器。",
+      "should_trigger": true
+    },
+    {
+      "id": 4,
+      "query": "如何在 Docker 容器内使用 npu-smi 监控 NPU 状态？",
+      "should_trigger": true
+    },
+    {
+      "id": 5,
+      "query": "我需要从 Ascend Hub 下载 CANN 8.3 镜像并运行带 NPU 支持的容器。",
+      "should_trigger": true
+    },
+    {
+      "id": 6,
+      "query": "你能展示一下如何在我的 Ascend 服务器上安装 Docker Compose 吗？",
+      "should_trigger": true
+    },
+    {
+      "id": 7,
+      "query": "我想自动检测 NPU 卡数（A2 为 8 卡，A3 为 16 卡）并相应配置 Docker。",
+      "should_trigger": true
+    },
+    {
+      "id": 8,
+      "query": "如何为 Docker 中的 NPU 配置 ASCEND_HOME 和 LD_LIBRARY_PATH 环境变量？",
+      "should_trigger": true
+    },
+    {
+      "id": 9,
+      "query": "我需要启动一个 NPU 容器，挂载日志目录用于 NPU 日志。",
+      "should_trigger": true
+    },
+    {
+      "id": 10,
+      "query": "在容器中访问 davinci_manager 和所有 NPU 设备的 docker run 命令是什么？",
+      "should_trigger": true
+    },
+    {
+      "id": 11,
+      "query": "我想创建一个带有状态管理的基本 React 组件。",
+      "should_trigger": false
+    },
+    {
+      "id": 12,
+      "query": "能帮我配置 Redis 集群用于缓存吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 13,
+      "query": "如何设置带有 pgBouncer 的 PostgreSQL 数据库？",
+      "should_trigger": false
+    },
+    {
+      "id": 14,
+      "query": "我需要写一个 Python 脚本来处理 CSV 文件和聚合数据。",
+      "should_trigger": false
+    },
+    {
+      "id": 15,
+      "query": "能解释一下如何在 C# 中使用 Autofac 进行依赖注入吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 16,
+      "query": "我想为 Kubernetes 配置带有资源限制和存活探针的部署。",
+      "should_trigger": false
+    },
+    {
+      "id": 17,
+      "query": "如何在 C 中实现带有冲突解决处理的哈希表？",
+      "should_trigger": false
+    },
+    {
+      "id": 18,
+      "query": "能帮我设置用于分布式存储的 Cassandra 集群吗？",
+      "should_trigger": false
+    },
+    {
+      "id": 19,
+      "query": "我需要配置带有 Let's Encrypt 证书的 HTTPS 服务器。",
+      "should_trigger": false
+    },
+    {
+      "id": 20,
+      "query": "虚拟专用网络和虚拟专用服务器有什么区别？",
+      "should_trigger": false
+    }
+  ]
+}
